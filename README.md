@@ -6,6 +6,8 @@ You can easily run face recognition with docker. You can git clone this reposito
 docker run -v $(pwd):/tmp/downloads/ kevinsimper/openbr bash -c " br -algorithm AgeEstimation -enrollAll -enroll family.jpg  meta.csv &> /dev/null && cat meta.csv"
 ```
 
+![](family.jpg)
+
 This will output this csv to the console:
 
 ```
